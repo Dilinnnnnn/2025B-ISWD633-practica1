@@ -11,9 +11,13 @@ docker run -d --name <nombre contenedor> -p <puerto host>:<puerto contenedor> <n
 
 ```
 Crear un contenedor a partir de la imagen nginx version alpine con el mapeo de puertos del ejemplo gráfico, host 3000 y contenedor 80
-# COMPLETAR
 
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:3000
+```
+docker run -d --name web -p 3000:80 nginx:alpine
+```
+
+<img width="909" height="348" alt="image" src="https://github.com/user-attachments/assets/bf6ef802-a8e1-4f7d-a5a6-d7cdd3ca4f30" />
+
 
 ### Para mapear más de un puerto
 
@@ -22,7 +26,8 @@ docker run -d --name <nombre contenedor> -p <puerto host 01>:<puerto contenedor 
 ```
 
 Crear un contenedor a partir de la imagen rabbitmq version management-alpine, para este mapeo de puertos usar en el host los mismos puertos del contenedor.
-# COMPLETAR
+
+docker run -d --name rabbitmq -p 5672:5672 rabbitmq:management-alpine
 
 ### Usando una forma más semántica cuando se especifican puertos
 
