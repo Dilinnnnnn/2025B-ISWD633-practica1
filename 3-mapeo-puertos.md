@@ -47,7 +47,8 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 ### Crear contenedor de Jenkins puertos contenedor: 8080 (interface web) y 50000 (comunicación entre nodos) imagen: jenkins/jenkins:alpine3.18-jdk11
 # COMPLETAR
 
-# COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+<img width="1897" height="1001" alt="image" src="https://github.com/user-attachments/assets/b9695fe7-c82c-43b1-a496-086bb5214930" />
+
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
